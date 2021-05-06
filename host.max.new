@@ -1,0 +1,84 @@
+##
+##
+##
+##
+# Host Database
+# Host Database
+# Host Database
+# Host Database
+#
+#
+#
+#
+# localhost is used to configure the loopback interface
+# localhost is used to configure the loopback interface
+# localhost is used to configure the loopback interface
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+# when the system is booting.  Do not change this entry.
+# when the system is booting.  Do not change this entry.
+# when the system is booting.  Do not change this entry.
+##
+##
+##
+##
+127.0.0.1	localhost
+127.0.0.1	localhost
+127.0.0.1	localhost
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+255.255.255.255	broadcasthost
+255.255.255.255	broadcasthost
+255.255.255.255	broadcasthost
+# Added by Docker Desktop
+# Added by Docker Desktop
+# Added by Docker Desktop
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+# To allow the same kube context to work on the host and the container:
+# To allow the same kube context to work on the host and the container:
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+127.0.0.1 kubernetes.docker.internal
+127.0.0.1 kubernetes.docker.internal
+127.0.0.1 kubernetes.docker.internal
+# End of section
+# End of section
+# End of section
+# End of section
+
+
+
+
+## BEGIN DD SECTION
+## BEGIN DD SECTION
+## BEGIN DD SECTION
+## BEGIN DD SECTION
+site_line127.0.0.1 youtube.com 
+127.0.0.1 youtube.com 
+127.0.0.1 youtube.com 
+127.0.0.1 www.youtube.com 
+site_line127.0.0.1 www.youtube.com 
+127.0.0.1 www.youtube.com 
+127.0.0.1 amazon.com
+127.0.0.1 amazon.com
+site_line127.0.0.1 amazon.com
+127.0.0.1 www.amazon.com
+127.0.0.1 www.amazon.com
+127.0.0.1 www.amazon.com
+site_line
+
+
+
+
+
+
+
+## END DD SECTION
+## END DD SECTION
+## END DD SECTION
+## END DD SECTION
+# there could be more legit hosts stuff here
+# there could be more legit hosts stuff here
+# there could be more legit hosts stuff here
+# there could be more legit hosts stuff here

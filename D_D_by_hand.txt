@@ -1,0 +1,26 @@
+>>> filename = "hosts_original"
+>>> file_obj = open(filename, 'r')
+>>> file_obj
+<_io.TextIOWrapper name='hosts_original' mode='r' encoding='UTF-8'>
+>>> foo = file_obj.read()
+>>> foo
+'##\n# Host Database\n#\n# localhost is used to configure the loopback interface\n# when the system is booting.  Do not change this entry.\n##\n127.0.0.1\tlocalhost\n255.255.255.255\tbroadcasthost\n# Added by Docker Desktop\n# To allow the same kube context to work on the host and the container:\n127.0.0.1 kubernetes.docker.internal\n# End of section\n'
+>>> bar = foo + "bat"
+>>> bar
+'##\n# Host Database\n#\n# localhost is used to configure the loopback interface\n# when the system is booting.  Do not change this entry.\n##\n127.0.0.1\tlocalhost\n255.255.255.255\tbroadcasthost\n# Added by Docker Desktop\n# To allow the same kube context to work on the host and the container:\n127.0.0.1 kubernetes.docker.internal\n# End of section\nbat'
+>>> new_filename = hosts.max"
+  File "<stdin>", line 1
+    new_filename = hosts.max"
+                             ^
+SyntaxError: EOL while scanning string literal
+>>> new_filename = "hosts.max"
+>>> file_obj = open("hosts.max", "w")
+>>> file_obj
+<_io.TextIOWrapper name='hosts.max' mode='w' encoding='UTF-8'>
+>>> file-obj.write(bar)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'file' is not defined
+>>> file_obj.write(bar)
+342
+>>> file_obj.close(`
