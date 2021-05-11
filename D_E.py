@@ -24,8 +24,4 @@ for host_line in fo_host_og.readlines():
     if DEBUG:
       print('break works')
     break
-site_line_string = "\n".join(site_line_list)
-fo_host_new.write(site_line_string)
-if DEBUG: 
-  print('about to write site_list.txt contents')
-print('this is after the for loop') 
+ 
