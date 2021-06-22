@@ -2,4 +2,4 @@
 
 #Short Term Deep Focus Assistant.
 
-# Once run this tool blocks the specific Distraction sites you specify.
+# Once run this tool blocks the specific site or sites you specify.
